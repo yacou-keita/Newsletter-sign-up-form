@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
+  <!-- MATERIAL CDN -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  <!-- Sign-up form start -->
+  <div class="horizontal-and-vertical-center">
+    <!-- Sign-up form start -->
+    <div class="card-form">
+      <div class="right">
+        <div>
+          <h1 class="mb-1-5">Stay updated!</h1>
+          <small class="mb-1-5">Join 60,000+ product managers receiving monthly <br> updates on:</small>
+          <ul class="mb-1-5">
+            <li><i class="material-icons-sharp">done</i><small>Product discovery and building what matters</small></li>
+            <li><i class="material-icons-sharp">done</i><small>Measuring to ensure updates are a success</small></li>
+            <li><i class="material-icons-sharp">done</i><small>And much more!</small></li>
+          </ul>
+          <div class="mb-1-5">
+            <div class="input">
+              <label for="email">Email address</label>
+              <input class="mb-1" type="email" id="email" placeholder="email@company.com">
+            </div>
+            <button>Subscribe to monthly newsletter</button>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="sign-up">
+      </div>
+    </div>
 
-  Stay updated!
 
-  Join 60,000+ product managers receiving monthly updates on:
+    <!-- Sign-up form end -->
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+    <!-- Success message start -->
 
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
+    <!-- Thanks for subscribing!
 
   A confirmation email has been sent to ash@loremcompany.com. 
   Please open it and click the button inside to confirm your subscription.
 
-  Dismiss message
+  Dismiss message -->
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <!-- Success message end -->
+
+    <div class="attribution">
+      Défi proposé par <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      Codé par <a href="https://github.com/yacou-keita">Keita Yacou.</a>
+    </div>
   </div>
+
 </body>
+
 </html>
