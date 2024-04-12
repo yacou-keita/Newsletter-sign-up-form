@@ -1,0 +1,41 @@
+input {
+    border: 1.5px solid var(--Grey);
+    border-radius: 5px;
+    padding: .6rem;
+    border:1px solid var(--Grey);
+    outline-color: var(--Charcoal-Grey);
+}
+
+input:hover {
+    cursor: pointer;
+    border:1px solid var(--Charcoal-Grey);
+}
+
+
+
+::placeholder {
+    color: var(--Grey);
+}
+
+
+.input label {
+    font-size: .6rem;
+    margin-bottom: .5rem;
+    color: var(--Dark-Slate-Grey);
+    font-weight: 700;
+}
+
+
+.input__error {
+    border: 1px solid var(--Tomato);
+    outline-color: var(--Tomato);
+    background-color: var(--error);
+}
+
+.input__error:hover {
+    border-color: var(--Tomato);
+}
+
+.input__error::placeholder {
+    color: var(--Tomato);
+} 

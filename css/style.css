@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("./colors.css");
+@import url("./button.css");
+@import url("./input.css");
 
 
 * {
@@ -17,21 +19,9 @@ body {
 }
 
 small {
-    color: var(--Grey);
-}
-
-input {
-    border: 1.5px solid var(--Grey);
-    border-radius: 5px;
-    padding: .6rem;
-}
-
-.input label {
-    font-size: .6rem;
-    margin-bottom: .5rem;
     color: var(--Dark-Slate-Grey);
-    font-weight: 700;
 }
+
 
 .mb-1-5 {
     margin-bottom: 1.5rem;
@@ -62,10 +52,10 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-.right  div {
+.right div {
     display: flex;
     flex-direction: column;
     width: 19rem;
@@ -96,14 +86,15 @@ input {
     height: 25rem;
 }
 
-/* .left .in */
+
 
 .attribution {
     margin-top: 2rem;
     font-size: 11px;
     text-align: center;
+    color: var(--White);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Tomato);
 }

@@ -1,0 +1,18 @@
+.btn {
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.btn__primary {
+    background-color: var(--Charcoal-Grey);
+    color: var(--White);
+}
+
+.btn__tomato-gradient:hover {
+    transition: all .4s ease-in-out;
+    color: var(--White);
+    box-shadow: 2px 4px 15px 0 var(--Tomato); 
+    background: linear-gradient(to right,var(--pink), var(--Tomato));
+}
